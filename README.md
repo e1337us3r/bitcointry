@@ -11,3 +11,6 @@ A browser extension that displays information about Turkish Bitcoin markets.
 <p>* Add a graph which displays avarage Bitcoin price of all markets in a certain period of time(1,3,5 days?).</p>
 <p>* Add a simple Bitcoin to TRY calculater.</p>
 
+Get it:
+<p>Chrome : https://chrome.google.com/webstore/detail/bitcointry/nakabcjnpaehamceglacpogdnohodafh</p>
+<p>Firefox : https://addons.mozilla.org/en-US/firefox/addon/bitcointry/</p>
