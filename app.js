@@ -12,7 +12,7 @@ var getJSON = function (url, callback) {
     };
     xhr.send();
 };
-getJSON("https://cors-anywhere.herokuapp.com/https://www.btcturk.com/api/ticker", function (err, data) {
+getJSON("https://bitcointry.herokuapp.com/?url=https://www.btcturk.com/api/ticker", function (err, data) {
 
     if (err)
         console.log("error")
@@ -35,7 +35,7 @@ getJSON("https://cors-anywhere.herokuapp.com/https://www.btcturk.com/api/ticker"
         
     }
 });
-getJSON("https://cors-anywhere.herokuapp.com/https://www.paribu.com/ticker", function (err, data) {
+getJSON("https://bitcointry.herokuapp.com/?url=https://www.paribu.com/ticker", function (err, data) {
 
     if (err)
         console.log("error")
@@ -49,7 +49,7 @@ getJSON("https://cors-anywhere.herokuapp.com/https://www.paribu.com/ticker", fun
             btc.className="positive";
     }
 });
-getJSON("https://cors-anywhere.herokuapp.com/https://koinim.com/ticker/", function (err, data) {
+getJSON("https://bitcointry.herokuapp.com/?url=https://koinim.com/ticker/", function (err, data) {
     
         if (err)
             console.log("error")
@@ -61,7 +61,7 @@ getJSON("https://cors-anywhere.herokuapp.com/https://koinim.com/ticker/", functi
             else btc.className="positive";
         }
     });
-    getJSON("https://cors-anywhere.herokuapp.com/https://koineks.com/ticker", function (err, data) {
+    getJSON("https://bitcointry.herokuapp.com/?url=https://koineks.com/ticker", function (err, data) {
         
             if (err)
                 console.log("error")

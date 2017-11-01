@@ -1,7 +1,7 @@
 {
     "manifest_version":2,
     "name": "BitcoinTRY",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "Bitcoin TRY borsaları",
     "icons": {
         "128" : "icons8-Bitcoin-128.png",
